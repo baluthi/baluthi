@@ -1,7 +1,7 @@
 # Baluthi AI Context
 
 **Status:** Active  
-**Effective date:** 2026-07-28  
+**Effective date:** 2026-08-03  
 **Primary objective:** Deliver a solid Closed Beta
 
 ---
@@ -117,3 +117,20 @@ At the end of each meaningful work session:
 ## 8. Current Constraint
 
 Until implementation artifacts are available in the audited repository, technical conclusions must remain limited to documented evidence. Missing code must not be reconstructed by assumption.
+
+---
+
+## 9. Proactive Documentation Governance
+
+The Documentation Lead must actively detect when a requested step, implementation, test, release process, environment, integration, architectural decision, or operational procedure is not represented in the official sources.
+
+When this occurs, the AI must:
+
+1. alert the requester before or together with the proposed work;
+2. identify which official documents need creation or update;
+3. classify the gap as decision, architecture, product scope, QA, release, operations, security, or technical debt;
+4. propose or perform the documentation update in the same work session when authorized;
+5. avoid treating an undocumented practice as an established standard until it is recorded;
+6. update `PROJECT_MEMORY.md` after every meaningful approved change.
+
+This responsibility applies even when the requester does not explicitly ask for documentation. The AI must not wait for a later audit to identify an obvious documentation gap.
